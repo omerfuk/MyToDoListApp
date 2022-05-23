@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1F2C9000C8DEA55C937793 /* Pods_MyToDoListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABF75687B11E1CD4FE9D27A /* Pods_MyToDoListApp.framework */; };
 		DEA21B8D283C2AD50068E64F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA21B8C283C2AD50068E64F /* AppDelegate.swift */; };
 		DEA21B8F283C2AD50068E64F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA21B8E283C2AD50068E64F /* SceneDelegate.swift */; };
 		DEA21B91283C2AD50068E64F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA21B90283C2AD50068E64F /* ViewController.swift */; };
 		DEA21B94283C2AD50068E64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA21B92283C2AD50068E64F /* Main.storyboard */; };
 		DEA21B96283C2AD60068E64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA21B95283C2AD60068E64F /* Assets.xcassets */; };
 		DEA21B99283C2AD60068E64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA21B97283C2AD60068E64F /* LaunchScreen.storyboard */; };
+		DEA21BA1283C30740068E64F /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA21BA0283C30740068E64F /* EntryViewController.swift */; };
+		DEA21BA3283C30850068E64F /* ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA21BA2283C30850068E64F /* ViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DEA21B89283C2AD50068E64F /* MyToDoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B8782AE2B1BD03156FA9FB /* Pods-MyToDoListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyToDoListApp.release.xcconfig"; path = "Target Support Files/Pods-MyToDoListApp/Pods-MyToDoListApp.release.xcconfig"; sourceTree = "<group>"; };
+		A0BEF0104FD6B59B393A5534 /* Pods-MyToDoListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyToDoListApp.debug.xcconfig"; path = "Target Support Files/Pods-MyToDoListApp/Pods-MyToDoListApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BABF75687B11E1CD4FE9D27A /* Pods_MyToDoListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyToDoListApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA21B89283C2AD50068E64F /* MyToDoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MyToDoListApp.app; path = "/Users/omerkuf/Desktop/hersey/kisisel/Projeler/MyToDoListApp/build/Debug-iphoneos/MyToDoListApp.app"; sourceTree = "<absolute>"; };
 		DEA21B8C283C2AD50068E64F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA21B8E283C2AD50068E64F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DEA21B90283C2AD50068E64F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		DEA21B95283C2AD60068E64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA21B98283C2AD60068E64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA21B9A283C2AD60068E64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA21BA0283C30740068E64F /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		DEA21BA2283C30850068E64F /* ViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,26 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1F2C9000C8DEA55C937793 /* Pods_MyToDoListApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		237F6802CCD8663AC8B528F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEF0104FD6B59B393A5534 /* Pods-MyToDoListApp.debug.xcconfig */,
+				27B8782AE2B1BD03156FA9FB /* Pods-MyToDoListApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78957E55CEA9C54A91226596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BABF75687B11E1CD4FE9D27A /* Pods_MyToDoListApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DEA21B80283C2AD50068E64F = {
 			isa = PBXGroup;
 			children = (
 				DEA21B8B283C2AD50068E64F /* MyToDoListApp */,
-				DEA21B8A283C2AD50068E64F /* Products */,
+				237F6802CCD8663AC8B528F4 /* Pods */,
+				78957E55CEA9C54A91226596 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		DEA21B8A283C2AD50068E64F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DEA21B89283C2AD50068E64F /* MyToDoListApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DEA21B8B283C2AD50068E64F /* MyToDoListApp */ = {
@@ -63,6 +82,8 @@
 				DEA21B95283C2AD60068E64F /* Assets.xcassets */,
 				DEA21B97283C2AD60068E64F /* LaunchScreen.storyboard */,
 				DEA21B9A283C2AD60068E64F /* Info.plist */,
+				DEA21BA0283C30740068E64F /* EntryViewController.swift */,
+				DEA21BA2283C30850068E64F /* ViewViewController.swift */,
 			);
 			path = MyToDoListApp;
 			sourceTree = "<group>";
@@ -74,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA21B9D283C2AD60068E64F /* Build configuration list for PBXNativeTarget "MyToDoListApp" */;
 			buildPhases = (
+				8694162EC33AFAD33DB685E7 /* [CP] Check Pods Manifest.lock */,
 				DEA21B85283C2AD50068E64F /* Sources */,
 				DEA21B86283C2AD50068E64F /* Frameworks */,
 				DEA21B87283C2AD50068E64F /* Resources */,
+				78D168BD8AC21F8D0E7D82B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,7 +134,7 @@
 				Base,
 			);
 			mainGroup = DEA21B80283C2AD50068E64F;
-			productRefGroup = DEA21B8A283C2AD50068E64F /* Products */;
+			productRefGroup = DEA21B80283C2AD50068E64F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -133,12 +156,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78D168BD8AC21F8D0E7D82B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyToDoListApp/Pods-MyToDoListApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyToDoListApp/Pods-MyToDoListApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyToDoListApp/Pods-MyToDoListApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8694162EC33AFAD33DB685E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyToDoListApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEA21B85283C2AD50068E64F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DEA21B91283C2AD50068E64F /* ViewController.swift in Sources */,
+				DEA21BA1283C30740068E64F /* EntryViewController.swift in Sources */,
+				DEA21BA3283C30850068E64F /* ViewViewController.swift in Sources */,
 				DEA21B8D283C2AD50068E64F /* AppDelegate.swift in Sources */,
 				DEA21B8F283C2AD50068E64F /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +351,7 @@
 		};
 		DEA21B9E283C2AD60068E64F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BEF0104FD6B59B393A5534 /* Pods-MyToDoListApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +380,7 @@
 		};
 		DEA21B9F283C2AD60068E64F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B8782AE2B1BD03156FA9FB /* Pods-MyToDoListApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
